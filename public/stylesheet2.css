@@ -1,0 +1,232 @@
+body{
+ margin: 0px;   
+}
+.outbox{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;  
+    justify-content: left; 
+    background-color: white;      
+    width: 100vw; 
+    height: 100vh;
+}
+.facebox{
+    display: flex; 
+    align-items: center;  
+    justify-content: space-evenly;
+    background-color: #0020C2;
+    width: 100%;
+    height: 8%;    
+}
+.facebox1{
+    display: flex;
+    align-items: center;    
+    width: 50%;
+    height: 100%;   
+}
+.facelogo{   
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+ }
+.lite{
+    display: flex; 
+    align-items: center;  
+    justify-content: space-evenly;
+    background-color: #0020C2;
+    color: white;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-weight: bold;    
+    margin-left: 5%;     
+    width: 38%;   
+}
+.facebox2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;    
+    width: 50%; 
+    height: 100%;
+}
+.profile{
+    display: flex;     
+    background-color: #0020C2;
+    color: white;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;   
+    border-left: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.inicial{
+    display: flex; 
+    justify-content: center;    
+    background-color: #0020C2;
+    color: white;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;   
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-right: 5%;
+    width: 17%;
+    padding-right: 3%;
+    padding-left: 3%;     
+}
+.linkperfil{
+    text-decoration: none;
+    color: white;    
+}
+.contain2{
+    display: flex; 
+    align-items: center;  
+    justify-content: left; 
+    background-color: white;
+    width: 100%; 
+    height: 92%;
+    margin: 0; 
+    border-bottom: 5px solid blue ;       
+}
+.insidebox1{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 35%; 
+    height: 100%;       
+    color:black;
+    font-size: 50px;  
+    border-right: 5px solid blue;     
+}
+.namebox{
+    display: flex; 
+    background-image: url("wallpaper.jpg"); 
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue; 
+    width: 84%; 
+    height: 18%;
+    align-items: center;  
+    justify-content: space-evenly; 
+    color:white;
+    font-size: 50%;
+    border-radius: 10px;
+}
+.perfil{
+    height: 100px;
+    width: 100px;    
+    border-radius: 50%; 
+}
+.nameandre{
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 62%;
+}
+.descripbox{
+    display: flex; 
+    flex-direction: column;
+    background-color:white; 
+    border: 2px solid blue;     
+    width: 84%; 
+    height: 65%;
+    align-items: center;
+    justify-content: space-evenly; 
+    color:black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.sobre{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    width: 95%; 
+    height: 12%;
+    border-radius: 5px;
+}
+.boxicon{
+    background-image: url("casework.png");
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    width: 8%;
+}
+.boxabout{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 30%;
+    width: 80%;  
+}
+.linksobre{
+    text-decoration: none;
+    color: blue;    
+}
+.insidebox2{
+    display: flex;     
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color:white; 
+    width: 65%; 
+    height: 100%;
+    color: black;
+    font-size: 50px; 
+  }
+.postboxpensando{    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;       
+    width: 55%;
+    height: 10%;
+}
+.perfilpensando{
+    height: 60px;
+    width: 60px;    
+    border-radius: 50%;
+}
+.pensando{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:grey;
+    width: 80%;    
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow: scroll;       
+    width: 92%;
+    height: 70%;   
+}
+.postbox{
+    display: flex;    
+    flex-direction: column;
+    align-items: bottom;  
+    justify-content: space-evenly;
+    background-color:white; 
+    border: 2px solid blue; 
+    width: 99%; 
+    padding-top: 16px;
+    padding-bottom: 8px;
+    color: black;
+    border-radius: 10px; 
+    margin-bottom: 16px;    
+}
+.textpostbox{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px;     
+    width: 93%;
+    margin-left: 25px;    
+    margin-bottom: 10px;
+}
+.imagepostbox{    
+    margin-left: 25px;
+}
+.copyright{   
+    background-color:white;
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+

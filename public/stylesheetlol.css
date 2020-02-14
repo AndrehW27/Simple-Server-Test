@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+.background{
+    width: 100vw;
+    height: 500vh;
+
+}
+.pyke{
+    display: flex;    
+    justify-content: flex-end; 
+    background-image: url("pyke.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.twitch{
+    display: flex;   
+    flex-direction: column; 
+    justify-content: flex-end; 
+    width: 33%;
+    height: 50%;   
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.twichboxbar{
+    border: 10px solid grey;
+    border-radius: 10px;
+    border-style: ridge;    
+    background-color: #6C2DC7;
+    width: 96%;
+    height: 15%;   
+       
+}
+.streamers{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: white;
+    text-shadow: 5px 4px grey;
+    margin-left: 16px;
+    letter-spacing: 6px;
+      
+}
+.twitchboxlinks{
+    border: 10px solid grey;
+    border-radius: 10px;
+    border-style: ridge;    
+    background-color: white;
+    width: 96%;
+    height: 85%;
+    background-image: url("dg.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+.jarvan{
+    background-image: url("jarvan.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.seju{
+    background-image: url("seju.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.tresh{
+    background-image: url("tresh.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.leona{
+    background-image: url("leona.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
